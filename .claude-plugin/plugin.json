@@ -1,0 +1,15 @@
+{
+  "name": "agentskills",
+  "version": "0.1.0",
+  "description": "Personal reverse-engineering skills for AI coding agents.",
+  "author": {
+    "name": "Ryan McLean"
+  },
+  "homepage": "https://github.com/ryanm101/agentskills",
+  "repository": "https://github.com/ryanm101/agentskills",
+  "license": "MIT",
+  "skills": "./skills",
+  "experimental": {
+    "evals": "evals/plugin"
+  }
+}

@@ -19,3 +19,7 @@ npx skills add ryanm101/agentskills --skill re  # install one skill
 ```
 
 Or clone and copy a `skills/<name>/` directory into your agent's skills path (e.g. `~/.claude/skills/`).
+
+## Evals
+
+`evals/` holds `claude plugin eval` cases checking that each skill fires on the prompts it owns and stays quiet on the other's. See [`evals/README.md`](evals/README.md).
